@@ -1,9 +1,10 @@
 ## Setup:
 - NextJS
   - Typescript
-- ESLint
-  - Standart
+- Linter | Project Patterns
+  - ESLint (Standard)
   - Prettier
+  - editorconfig
 
 ---
 
