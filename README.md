@@ -1,6 +1,7 @@
 ## Setup:
 - NextJS
   - Typescript
+  - StyledComponents with themes
 - Linter | Project Patterns
   - ESLint (Standard)
   - Prettier

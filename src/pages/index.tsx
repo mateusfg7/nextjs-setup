@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <h1>Hello Word!</h1>
+        <h1>Next.js Project Setup</h1>
       </main>
     </div>
   )
