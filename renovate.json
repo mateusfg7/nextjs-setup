@@ -1,5 +1,21 @@
 {
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "commitBodyTable": true,
+  "branchPrefix": "deps/",
+  "labels": ["dependencies"],
+  "automerge": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["d:major"]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["d:minor"]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["d:patch"]
+    }
   ]
 }
